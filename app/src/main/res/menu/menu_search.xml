@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/action_search"
+    android:orderInCategory="100"
+    android:title="@string/action_search"
+    android:icon="@drawable/baseline_search_24"
+    app:actionViewClass="androidx.appcompat.widget.SearchView"
+    app:showAsAction="always|collapseActionView"
+    />
+    <item
+        android:id="@+id/opcion1"
+        android:title="Primera Opcion" />
+    <item
+        android:id="@+id/opcion2"
+        android:title="Segunda Opcion" />
+    <item
+        android:id="@+id/mas"
+        android:title="Mas opciones" >
+        <menu >
+            <item
+                android:id="@+id/opcion3"
+                android:title="Tercera Opcion" />
+            <item
+                android:id="@+id/opcion4"
+                android:title="Cuarta Opcion" />
+        </menu>
+    </item>
+</menu>
